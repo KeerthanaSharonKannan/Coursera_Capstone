@@ -1,4 +1,4 @@
-# Coursera_Capstone
+# Cuisine_recommendation
 
 ## Introduction 
 The goal of the project is to identify the different cuisine restaurants that are frequently visited in the Manhattan city and its neighborhood by converting the addresses into their equivalent latitude and longitude coordinates. This analysis will help people who are planning to open a restaurant within Manhattan city and its neighborhood. By identifying the frequently visited restaurants, and analyzing the data, we can recommend that a new hotel can be opened in a particular neighborhood where it will be received better. I am using Foursquare location data to explore the neighborhoods of Manhattan city. With the help of Foursquare API, I get the most common venue categories in each neighborhood filter to choose the restaurants among those venues and then use this feature to group the neighborhoods into clusters by utilizing the K-means clustering algorithm. With the help of Folium library, neighborhoods in Manhattan city can be visualized along with their emerging clusters. 
